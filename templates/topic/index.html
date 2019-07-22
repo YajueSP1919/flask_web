@@ -1,0 +1,133 @@
+<!--<!DOCTYPE html>-->
+<!--<html lang="en">-->
+<!--<head>-->
+    <!--<meta charset="UTF-8">-->
+    <!--<title>bbs club</title>-->
+    <!--<link rel="stylesheet" href="/static/css/bootstrap.min.css">-->
+    <!--<link rel="stylesheet" href="/static/css/style.css">-->
+<!--</head>-->
+<!--<body>-->
+{% extends "topic/base.html" %}
+{% block title %}论坛主页{% endblock%}
+{% block main %}
+
+<div id="main">
+    <div id="sidebar">
+        <div class="panel">
+    <div class="header">
+      <ul class="breadcrumb">
+{#        <li><a href='/topic'>主页</a><span class="divider">/</span></li>#}
+          <span>个人信息</span>
+      </ul>
+    </div>
+    <div class="inner userinfo">
+      <div class="user_big_avatar">
+        <a><img src={{ u.image }} class="user_avatar" title={{ u.username }}></a>
+
+      </div>
+<<<<<<< HEAD
+      <a class="dark"  >{{ u.username }}</a>
+        
+=======
+<<<<<<< HEAD
+      <a class="dark" >{{ u.username }}</a>
+=======
+      <a class="dark"  >{{ u.username }}</a>
+
+>>>>>>> error fixed and gifs added
+>>>>>>> error fixed and gif added
+
+      <p class="col_fade">注册时间 3 年前</p>
+
+    </div>
+  </div>
+        <div class="panel">
+            <div class="inner">
+                <a href="/topic/new?board_id={{ bid }}" class="create_topic_btn">
+                    <span class="span-success">发布话题</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="content">
+        <div class="panel">
+            <div class="header">
+                <a href="/topic"
+                   class="topic-tab current-tab">
+                    全部的帖子
+                </a>
+
+                {% for b in bs %}
+                <a href="/topic?board_id={{ b.id }}"
+                   class="topic-tab current-tab">
+                    {{ b.title }}
+                </a>
+                {% endfor %}
+            </div>
+            <div class="inner post">
+                <div class="topic_list">
+                    {% for t in ms %}
+                    <div class="cell">
+<<<<<<< HEAD
+                        <div class="topic_title_wrapper">
+                            <a class="topic_title" href="{{ url_for('topic.detail', id=t.id) }}">
+                                {{ t.title }}
+                            </a>
+                            <span>{{ t.replies() | count }} / {{ t.views }}</span>
+                            <!--<a class="topic_title" href="{{ url_for('topic.delete', id=t.id) }}">-->
+                            <a class="topic_title" href="{{ url_for('topic.delete', id=t.id, token=token) }}">
+                                删除
+                            </a>
+
+                        </div>
+                    </div>
+=======
+
+              <span class="reply_count pull-left">
+                    <span class="count_of_replies" title="回复数">
+                        {{ t.replies() | count }}
+                    </span>
+                    <span class="count_seperator">/</span>
+                    <span class="count_of_visits" title="点击数">
+                        {{ t.views }}
+                     </span>
+                 </span>
+
+
+                    <a class="last_time pull-right"
+                       href="{{ url_for('topic.detail', id=t.id) }}">
+                        <span class="last_active_time">发布于{{ t.created_time | format_time }}</span>
+                    </a>
+
+                    <div class="topic_title_wrapper">
+
+                        <a class="topic_title" href="{{ url_for('topic.detail', id=t.id) }}"
+                           title="">
+                            {{ t.title }}
+                        </a>
+                    </div>
+                </div>
+>>>>>>> error fixed and gif added
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+  (function () {
+    var editor = new Editor();
+    editor.render($('.editor')[0]);
+  })();
+
+</script>
+
+{% endblock %}
+
+
+<!--</body>-->
+<<<<<<< HEAD
+<!--</html>-->
+=======
+<!--</html>-->
+>>>>>>> error fixed and gif added

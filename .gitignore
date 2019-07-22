@@ -1,0 +1,10 @@
+<<<<<<< HEAD
+config.py
+secret.py
+=======
+.idea
+gua.log.txt
+*.pyc
+secret.py
+database_secret.conf
+>>>>>>> error fixed and gif added

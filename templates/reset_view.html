@@ -1,0 +1,127 @@
+{#<!DOCTYPE html>#}
+{#<html lang="en">#}
+{#<head>#}
+{#    <meta charset="UTF-8">#}
+{#    <title>密码重置</title>#}
+{#    <link rel="stylesheet" href="/static/css/bootstrap.min.css">#}
+{#</head>#}
+{#<body>#}
+{#    <form class="form-horizontal" method="post" action="{{ url_for('.reset_update',token=token, password=password) }}">#}
+{#        <div class="control-group">#}
+{#            <label class="control-label">新密码</label>#}
+{#            <div class="controls">#}
+{#                <input type="text" name="password" placeholder="password">#}
+{#            <button type="submit">提交新密码</button>#}
+{#            </div>#}
+{#        </div>#}
+{#    </form>#}
+{#</body>#}
+{#</html>#}
+
+<!DOCTYPE html>
+<!-- saved from url=(0046)https://vcb-s.com/wp-login.php?action=register -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="zh-CN"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>找回密码</title>
+<link rel="dns-prefetch" href="https://s.w.org/">
+<link rel="stylesheet" id="dashicons-css" href="/static/css/dashicons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="buttons-css" href="/static/css/buttons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="forms-css" href="/static/css/forms.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="l10n-css" href="/static/css/l10n.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="login-css" href="/static/css/login.min.css" type="text/css" media="all">
+<link rel="stylesheet" type="text/css" href="/static/css/admin.css"> <meta name="robots" content="noindex,noarchive">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta name="viewport" content="width=device-width">
+<style id="dark-reader-style" type="text/css">@media screen {
+
+/* Leading rule */
+html {
+  -webkit-filter: invert(100%) hue-rotate(180deg) contrast(80%) !important;
+  filter: invert(100%) hue-rotate(180deg) contrast(80%) !important;
+}
+
+/* Reverse rule */
+img,
+video,
+:not(object):not(body)>embed,
+object,
+svg image,
+[style*="background:url"],
+[style*="background-image:url"],
+[style*="background: url"],
+[style*="background-image: url"],
+[background],
+twitterwidget {
+  -webkit-filter: invert(100%) hue-rotate(180deg) !important;
+  filter: invert(100%) hue-rotate(180deg) !important;
+}
+[style*="background:url"] *,
+[style*="background-image:url"] *,
+[style*="background: url"] *,
+[style*="background-image: url"] *,
+input,
+[background] *,
+img[src^="https://s0.wp.com/latex.php"],
+twitterwidget .NaturalImage-image {
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+.compatibility-with-darkreader-below-4-3-3 {
+  background: white !important;
+}
+
+/* Text contrast */
+html {
+  text-shadow: 0 0 0 !important;
+}
+
+/* Full screen */
+:-webkit-full-screen, :-webkit-full-screen * {
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+:-moz-full-screen, :-moz-full-screen * {
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+:fullscreen, :fullscreen * {
+  -webkit-filter: none !important;
+  filter: none !important;
+}
+
+/* Page background */
+html {
+  background: rgb(25,25,25) !important;
+}
+
+/* Custom rules */
+.compatibility-with-darkreader-below-4-3-3 {
+    background: white !important;
+}
+
+}</style></head>
+<body class="login login-action-register wp-core-ui  locale-zh-cn">
+<div id="login">
+<h1><a>BocatCloud</a></h1>
+<p class="message register">找回密码</p>
+<form class="form-horizontal" method="post" action="{{ url_for('.reset_update',token=token, password=password) }}">   <p>
+<label for="user_login">新密码<br>
+<input type="text" name="password" id="user_login" class="input" value="" size="20" autocapitalize="off"></label>
+</p>
+<br class="clear">
+<input type="hidden" name="redirect_to" value="">
+<p class="submit"><input type="submit" name="wp-submit" id="wp-submit" class="button button-primary button-large" value="重置密码"></p>
+</form>
+<p id="nav">
+<a href="/userlogin">登录</a>
+| <a href="/lostpassword">忘记密码？</a>
+</p>
+</div>
+<script type="text/javascript">
+	try{document.getElementById('user_login').focus();}catch(e){}
+	if(typeof wpOnload=='function')wpOnload();
+	</script>
+<div class="clear"></div>
+
+
+</body></html>
