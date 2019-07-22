@@ -1,0 +1,50 @@
+16:42:20 index login <session_id_7b57d454-29eb-43c4-a335-c980c92118eb>  <2>
+16:42:24 index login <session_id_cd15599d-4c63-487b-803c-9b50df5cac45>  <1>
+16:42:59 index login <session_id_0866b8df-32eb-4503-93f4-2448356bb2bf>  <1>
+16:44:25 index login <session_id_7c1c75b4-ef1d-490d-9ba8-b8bd65f358a1>  <1>
+16:45:20 index login <session_id_cc195a2d-a42d-47b7-9246-dd61beadb354>  <1>
+16:45:28 index login <session_id_88db033b-5040-41c4-b154-e31a1f3572b4>  <2>
+16:45:40 index login <session_id_063a63c6-1fa6-4520-bb04-a99ba40bd7d0>  <1>
+16:53:17 index login <session_id_a828fb9c-3e5a-4091-b1a1-d9e06cde0f6d>  <2>
+16:53:43 index login <session_id_92e1b395-22ec-4ce3-82e2-d1a8014145fe>  <2>
+16:53:47 index login <session_id_b6c82bff-0dc1-47bb-8bb8-76e64539a2aa>  <2>
+16:53:55 index login <session_id_b2a0055d-255b-4b13-b0bd-cb2bd3ab3298>  <1>
+17:01:57 index login <session_id_cd56348d-2bb7-4e06-bd34-8c5dc2c8393c>  <2>
+17:02:00 index login <session_id_afdd9819-4334-4613-8935-7c16fccecade>  <1>
+15:28:30 index login <session_id_0cfe4cf4-afa5-4dd5-83cb-8108df9bf500>  <2>
+20:55:25 index login <session_id_80cbbea5-7530-4453-8302-08116f1961b4>  <2>
+19:52:57 index login <session_id_69b54c2a-ee6f-4f85-8db0-454f245bae47>  <1>
+19:57:23 index login <session_id_e8fa0979-53d5-4c47-922a-d1d352714729>  <1>
+21:04:44 index login <session_id_23cd284c-0e2a-42ff-9a04-b24b48a6b244>  <1>
+21:11:46 index login <session_id_40e4afff-b737-4c4e-99e2-adf21090f41d>  <1>
+21:15:22 index login <session_id_7a280208-a09e-4bda-be05-4fc8d125e6d4>  <1>
+21:15:31 index login <session_id_342fe690-4dc1-491b-a167-0d7882de45e0>  <1>
+21:17:58 index login <session_id_60837033-906c-43b3-83cb-e94defc296bb>  <1>
+21:20:11 index login <session_id_c046d7f6-1220-45c7-a771-68d9ed2c094a>  <1>
+21:35:19 k: token_cc75f5b2-fb55-4329-a75e-b62dec4a74ea
+21:35:19 cache.get(k): 1 1
+21:35:19 cache: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+21:35:46 k: token_cc75f5b2-fb55-4329-a75e-b62dec4a74ea
+21:47:21 index login <session_id_4e62c913-b869-4bcd-b4fc-bf29d28314e3>  <1>
+22:01:58 index login <session_id_01348ff4-ef06-43c8-83da-7c6f75d94da9>  <2>
+22:07:20 index login <session_id_e5a02125-5da8-4b6f-be74-772771643e17>  <1>
+08:47:18 index login <session_id_c855df6a-38d7-41a7-bbbd-f0e2102e52f8>  <1>
+08:47:33 index login <session_id_bff5287d-7c86-4c91-99f0-991c6dc41ac0>  <1>
+08:50:59 index login <session_id_3645e785-4d0c-41b2-8e20-fa6f3934bdf3>  <2>
+08:51:11 k: token_2e03ec7f-5573-4bfc-8fb8-b012487039a2
+08:51:11 cache.get(k): 2 2
+08:51:11 cache: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+08:54:03 index login <session_id_24df42da-eb1c-4837-a731-68de6f0f08f2>  <1>
+08:54:42 index login <session_id_de12ecee-cf3f-4f02-80a8-641e55c6f92f>  <1>
+09:00:09 index login <session_id_b69623c6-3846-441a-bc43-c4a63347e1e9>  <4>
+09:02:08 index login <session_id_a3397dc2-abed-47fe-9c7a-f6b0e22234c8>  <4>
+09:02:19 index login <session_id_2f6bcce0-e2de-49d5-9957-c79dbd0546e4>  <5>
+09:26:04 index login <session_id_6b3a890b-624a-41d9-9bad-3fb51c6b2a58>  <4>
+09:30:10 index login <session_id_49b526f3-9b23-4cc3-b62d-81e4b84ff383>  <1>
+09:42:03 k: token_f94bb026-d780-40b5-af28-04b13fbdd46d
+09:42:03 cache.get(k): 1 1
+09:42:03 cache: Redis<ConnectionPool<Connection<host=localhost,port=6379,db=0>>>
+09:42:05 k: token_f94bb026-d780-40b5-af28-04b13fbdd46d
+09:42:08 k: token_f94bb026-d780-40b5-af28-04b13fbdd46d
+09:42:10 k: token_f94bb026-d780-40b5-af28-04b13fbdd46d
+09:42:13 k: token_f94bb026-d780-40b5-af28-04b13fbdd46d
