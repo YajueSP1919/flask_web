@@ -1,6 +1,6 @@
 # 论坛网址
 
-http://www.bocatcloud.com/
+http://123.57.144.109/
 
 默认用户：test  密码：123
 
